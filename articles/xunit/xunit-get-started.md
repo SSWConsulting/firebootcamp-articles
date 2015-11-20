@@ -27,12 +27,16 @@ TODO: Add image
 
 ## Create two class library projects
 
+![Powershell](./media/xunit-get-started-solution-structure.png)
+Figure: Your solution should now resemble the above
 
 ## Create a test project
 
-Add a project for northwind.musicstore.tests.unit
+![Powershell](./media/xunit-get-started-add-test-project.png)
+Figure: Add a project for northwind.musicstore.tests.unit
 
 
+TODO: Add image
 Figure: Update project.json in the test project 
 
 
