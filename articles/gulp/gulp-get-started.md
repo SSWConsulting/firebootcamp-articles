@@ -44,18 +44,7 @@ Figure: Create a new file in the /app folder called greeter.ts
 
 2. Add the following TypeScript to greeter.ts
 
-      class Greeter {
-            constructor(public greeting: string) { }
-            greet() {
-               return "<h1>" + this.greeting + "</h1>";
-          }
-      };
-      
-      var greeter = new Greeter("Hello, world!");
-          
-      document.body.innerHTML = greeter.greet();
-      
-
+<script src="https://gist.github.com/ChrisBriggsy/8a6273b90c2a980e44d8.js"></script>
 
 ## Create the gulp task
 
