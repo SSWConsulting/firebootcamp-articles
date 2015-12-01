@@ -44,6 +44,7 @@ Figure: Create a new file in the /app folder called greeter.ts
 
 2. Add the following TypeScript to greeter.ts
 
+```
       class Greeter {
             constructor(public greeting: string) { }
             greet() {
@@ -54,7 +55,8 @@ Figure: Create a new file in the /app folder called greeter.ts
       var greeter = new Greeter("Hello, world!");
           
       document.body.innerHTML = greeter.greet();
-      
+
+```
 
 
 ## Create the gulp task
@@ -67,6 +69,7 @@ Figure: Create a new file in the /app folder called greeter.ts
 
 Add the following gulp task
 
+```
 gulp.task("compile-ts", function () {
 
     return gulp.src(paths.appTs)
@@ -78,3 +81,4 @@ gulp.task("compile-ts", function () {
         }))
     .pipe(gulp.dest(paths.appOutput))
     ;
+```
